@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity">
+
+    <!--search-->
+        <item
+            android:id="@+id/message"
+            android:icon="@android:drawable/ic_search_category_default"
+            app:showAsAction="always"
+            android:title="message"/>
+    <!---->
+        <item
+            android:id="@+id/picture"
+            android:icon="@android:drawable/ic_menu_gallery"
+            app:showAsAction="always|withText"
+            android:title="picture"/>
+    <!--search-->
+        <item
+            android:id="@+id/mode"
+            android:icon="@android:drawable/ic_menu_call"
+            app:showAsAction="always"
+            android:title="mode"/>
+    <!--homepage-->
+    <item
+        android:id="@+id/contacts"
+        android:icon="@android:drawable/sym_contact_card"
+        app:showAsAction="always"
+        android:title="mode"/>
+    <!--search-->
+        <item
+            android:id="@+id/support"
+            android:icon="@android:drawable/ic_dialog_info"
+            app:showAsAction="never|withText"
+            android:title="support"/>
+    <item
+        android:id="@+id/info"
+        app:showAsAction="never"
+        android:title="info"/>
+    <item
+        android:id="@+id/policy"
+        app:showAsAction="never"
+        android:title="App policy"/>
+    <item
+        android:id="@+id/settings"
+        app:showAsAction="never"
+        android:title="Settings"/>
+    <!--search-->
+        <item
+            android:id="@+id/exit"
+            app:showAsAction="never"
+            android:title="exit"/>
+
+</menu>
